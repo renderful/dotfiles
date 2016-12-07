@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/Dark Pastel Color Scheme/dark-pastel.tmTheme",
+	"font_face": "monaco",
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"translate_tabs_to_spaces": true,
+    "draw_white_space": "all"
+}

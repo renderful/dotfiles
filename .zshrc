@@ -12,8 +12,8 @@ ZSH_THEME="robbyrussell"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias rtun="reattach-to-user-namespace"
-alias startpg="rtun brew services start postgresql"
-alias stoppg="rtun brew services stop postgresql"
+alias pgstart="rtun brew services start postgresql"
+alias pgstop="rtun brew services stop postgresql"
 alias subl="rtun subl"
 
 alias pg="postgres -D /usr/local/var/postgres"

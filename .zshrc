@@ -11,6 +11,11 @@ ZSH_THEME="robbyrussell"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias rtun="reattach-to-user-namespace"
+alias startpg="rtun brew services start postgresql"
+alias stoppg="rtun brew services stop postgresql"
+alias subl="rtun subl"
+
 alias pg="postgres -D /usr/local/var/postgres"
 alias vi=vim
 
@@ -61,7 +66,6 @@ export PATH="/Users/codey/.composer/vendor/bin:$PATH"
 NPM_PACKAGES="${HOME}/.npm-packages"
 NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH" 
 export PATH="$NPM_PACKAGES/bin:$PATH"
-export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
 
 # ctrl-u = backward-kill-line rather than kill-whole-line
 bindkey \^U backward-kill-line
